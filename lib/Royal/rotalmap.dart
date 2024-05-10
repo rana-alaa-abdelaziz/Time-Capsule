@@ -13,7 +13,6 @@ class maproyal extends StatefulWidget {
   State<maproyal> createState() => _MAPState();
 }
 
-//AIzaSyC7qmOS9gojpdcmpchvuQ_ToBRjxNKtJq8
 class _MAPState extends State<maproyal> {
   
   final Completer<GoogleMapController> _mapcontroller = Completer();
