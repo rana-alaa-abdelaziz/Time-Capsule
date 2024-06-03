@@ -10,10 +10,7 @@ class MapPage extends StatefulWidget {
   const MapPage({super.key});
 
   @override
-  State<MapPage> createState() => _MAPState();
-}
-
-//AIzaSyC7qmOS9gojpdcmpchvuQ_ToBRjxNKtJq8
+  State<MapPage> createState() => 
 class _MAPState extends State<MapPage> {
   
   final Completer<GoogleMapController> _mapcontroller = Completer();
